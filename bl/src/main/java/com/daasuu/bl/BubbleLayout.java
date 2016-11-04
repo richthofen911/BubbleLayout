@@ -8,12 +8,13 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 
 /**
  * Bubble View for Android with custom stroke width and color, arrow size, position and direction.
  * Created by sudamasayuki on 16/04/04.
  */
-public class BubbleLayout extends FrameLayout {
+public class BubbleLayout extends RelativeLayout {
 
     public static float DEFAULT_STROKE_WIDTH = -1;
 

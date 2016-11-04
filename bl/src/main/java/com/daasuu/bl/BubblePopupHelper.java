@@ -18,8 +18,10 @@ public class BubblePopupHelper {
 
         popupWindow.setContentView(bubbleLayout);
         popupWindow.setOutsideTouchable(true);
-        popupWindow.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT);
-        popupWindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+        //popupWindow.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT);
+        //popupWindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+        popupWindow.setWidth(600);
+        popupWindow.setHeight(300);
         popupWindow.setAnimationStyle(android.R.style.Animation_Dialog);
         // change background color to transparent
         Drawable drawable;
